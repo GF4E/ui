@@ -1,0 +1,1106 @@
+{
+  "name": "shadcn/ui",
+  "version": 1,
+  "meta": {
+    "source": "github",
+    "repo": "shadcn-ui/ui",
+    "fork": "GF4E/ui",
+    "ref": "main@ba1503c",
+    "package": "apps/v4",
+    "config": "base-nova · neutral base colour · neutral theme · neutral chart colour · Inter · Lucide · radius default (0.625rem)",
+    "paths": {
+      "tokens": [
+        "apps/v4/registry/themes.ts",
+        "apps/v4/registry/config.ts",
+        "packages/shadcn/src/tailwind.css"
+      ],
+      "fonts": [
+        "apps/v4/lib/font-definitions.ts"
+      ],
+      "assets": [
+        "apps/v4/registry/bases/base/ui (IconPlaceholder lucide names)"
+      ],
+      "docs": [
+        "apps/v4/content/docs/(root)/theming.mdx",
+        "apps/v4/content/docs/(root)/index.mdx",
+        "apps/v4/content/docs/components/base/*.mdx",
+        "apps/v4/registry/new-york-v4/examples/typography-*.tsx"
+      ],
+      "styles": [
+        "apps/v4/registry/styles/style-*.css",
+        "apps/v4/app/style-registry.css"
+      ],
+      "blocks": [
+        "apps/v4/registry/bases/base/blocks"
+      ],
+      "charts": [
+        "apps/v4/registry/new-york-v4/charts"
+      ]
+    },
+    "components": {
+      "Accordion": "apps/v4/registry/bases/base/ui/accordion.tsx",
+      "AlertDialog": "apps/v4/registry/bases/base/ui/alert-dialog.tsx",
+      "Alert": "apps/v4/registry/bases/base/ui/alert.tsx",
+      "AspectRatio": "apps/v4/registry/bases/base/ui/aspect-ratio.tsx",
+      "Attachment": "apps/v4/registry/bases/base/ui/attachment.tsx",
+      "Avatar": "apps/v4/registry/bases/base/ui/avatar.tsx",
+      "Badge": "apps/v4/registry/bases/base/ui/badge.tsx",
+      "Breadcrumb": "apps/v4/registry/bases/base/ui/breadcrumb.tsx",
+      "Bubble": "apps/v4/registry/bases/base/ui/bubble.tsx",
+      "ButtonGroup": "apps/v4/registry/bases/base/ui/button-group.tsx",
+      "Button": "apps/v4/registry/bases/base/ui/button.tsx",
+      "Calendar": "apps/v4/registry/bases/base/ui/calendar.tsx",
+      "Card": "apps/v4/registry/bases/base/ui/card.tsx",
+      "Carousel": "apps/v4/registry/bases/base/ui/carousel.tsx",
+      "ChartContainer": "apps/v4/registry/bases/base/ui/chart.tsx",
+      "Checkbox": "apps/v4/registry/bases/base/ui/checkbox.tsx",
+      "CodeBlock": "apps/v4/registry/bases/base/ui/code-block.tsx",
+      "Collapsible": "apps/v4/registry/bases/base/ui/collapsible.tsx",
+      "Combobox": "apps/v4/registry/bases/base/ui/combobox.tsx",
+      "Command": "apps/v4/registry/bases/base/ui/command.tsx",
+      "ContextMenu": "apps/v4/registry/bases/base/ui/context-menu.tsx",
+      "Dialog": "apps/v4/registry/bases/base/ui/dialog.tsx",
+      "Drawer": "apps/v4/registry/bases/base/ui/drawer.tsx",
+      "DropdownMenu": "apps/v4/registry/bases/base/ui/dropdown-menu.tsx",
+      "Empty": "apps/v4/registry/bases/base/ui/empty.tsx",
+      "Field": "apps/v4/registry/bases/base/ui/field.tsx",
+      "HoverCard": "apps/v4/registry/bases/base/ui/hover-card.tsx",
+      "InputGroup": "apps/v4/registry/bases/base/ui/input-group.tsx",
+      "InputOTP": "apps/v4/registry/bases/base/ui/input-otp.tsx",
+      "Input": "apps/v4/registry/bases/base/ui/input.tsx",
+      "Item": "apps/v4/registry/bases/base/ui/item.tsx",
+      "Kbd": "apps/v4/registry/bases/base/ui/kbd.tsx",
+      "Label": "apps/v4/registry/bases/base/ui/label.tsx",
+      "Marker": "apps/v4/registry/bases/base/ui/marker.tsx",
+      "Menubar": "apps/v4/registry/bases/base/ui/menubar.tsx",
+      "MessageScroller": "apps/v4/registry/bases/base/ui/message-scroller.tsx",
+      "Message": "apps/v4/registry/bases/base/ui/message.tsx",
+      "NativeSelect": "apps/v4/registry/bases/base/ui/native-select.tsx",
+      "NavigationMenu": "apps/v4/registry/bases/base/ui/navigation-menu.tsx",
+      "Pagination": "apps/v4/registry/bases/base/ui/pagination.tsx",
+      "Popover": "apps/v4/registry/bases/base/ui/popover.tsx",
+      "Progress": "apps/v4/registry/bases/base/ui/progress.tsx",
+      "Questionnaire": "apps/v4/registry/bases/base/ui/questionnaire.tsx",
+      "RadioGroup": "apps/v4/registry/bases/base/ui/radio-group.tsx",
+      "ResizablePanelGroup": "apps/v4/registry/bases/base/ui/resizable.tsx",
+      "ScrollArea": "apps/v4/registry/bases/base/ui/scroll-area.tsx",
+      "Select": "apps/v4/registry/bases/base/ui/select.tsx",
+      "Separator": "apps/v4/registry/bases/base/ui/separator.tsx",
+      "Sheet": "apps/v4/registry/bases/base/ui/sheet.tsx",
+      "Sidebar": "apps/v4/registry/bases/base/ui/sidebar.tsx",
+      "Skeleton": "apps/v4/registry/bases/base/ui/skeleton.tsx",
+      "Slider": "apps/v4/registry/bases/base/ui/slider.tsx",
+      "Sonner": "apps/v4/registry/bases/base/ui/sonner.tsx",
+      "Spinner": "apps/v4/registry/bases/base/ui/spinner.tsx",
+      "Switch": "apps/v4/registry/bases/base/ui/switch.tsx",
+      "Table": "apps/v4/registry/bases/base/ui/table.tsx",
+      "Tabs": "apps/v4/registry/bases/base/ui/tabs.tsx",
+      "Textarea": "apps/v4/registry/bases/base/ui/textarea.tsx",
+      "Toast": "apps/v4/registry/bases/base/ui/toast.tsx",
+      "ToggleGroup": "apps/v4/registry/bases/base/ui/toggle-group.tsx",
+      "Toggle": "apps/v4/registry/bases/base/ui/toggle.tsx",
+      "Tooltip": "apps/v4/registry/bases/base/ui/tooltip.tsx",
+      "Trace": "apps/v4/registry/bases/base/ui/trace.tsx"
+    },
+    "pages": {
+      "Preview": {
+        "kind": "block",
+        "group": "Showcase blocks",
+        "name": "preview",
+        "bytes": 107500
+      },
+      "Preview02": {
+        "kind": "block",
+        "group": "Showcase blocks",
+        "name": "preview-02",
+        "bytes": 95889
+      },
+      "Login01": {
+        "kind": "block",
+        "group": "Login blocks",
+        "name": "login-01",
+        "bytes": 28608
+      },
+      "Login02": {
+        "kind": "block",
+        "group": "Login blocks",
+        "name": "login-02",
+        "bytes": 35859
+      },
+      "Login03": {
+        "kind": "block",
+        "group": "Login blocks",
+        "name": "login-03",
+        "bytes": 31817
+      },
+      "Login04": {
+        "kind": "block",
+        "group": "Login blocks",
+        "name": "login-04",
+        "bytes": 36436
+      },
+      "Login05": {
+        "kind": "block",
+        "group": "Login blocks",
+        "name": "login-05",
+        "bytes": 31290
+      },
+      "Signup01": {
+        "kind": "block",
+        "group": "Signup blocks",
+        "name": "signup-01",
+        "bytes": 2677
+      },
+      "Signup02": {
+        "kind": "block",
+        "group": "Signup blocks",
+        "name": "signup-02",
+        "bytes": 36326
+      },
+      "Signup03": {
+        "kind": "block",
+        "group": "Signup blocks",
+        "name": "signup-03",
+        "bytes": 30740
+      },
+      "Signup04": {
+        "kind": "block",
+        "group": "Signup blocks",
+        "name": "signup-04",
+        "bytes": 36745
+      },
+      "Signup05": {
+        "kind": "block",
+        "group": "Signup blocks",
+        "name": "signup-05",
+        "bytes": 31301
+      },
+      "Dashboard01": {
+        "kind": "block",
+        "group": "Dashboard blocks",
+        "name": "dashboard-01",
+        "bytes": 220700
+      },
+      "Sidebar01": {
+        "kind": "block",
+        "group": "Sidebar blocks",
+        "name": "sidebar-01",
+        "bytes": 7071
+      },
+      "Sidebar02": {
+        "kind": "block",
+        "group": "Sidebar blocks",
+        "name": "sidebar-02",
+        "bytes": 7623
+      },
+      "Sidebar03": {
+        "kind": "block",
+        "group": "Sidebar blocks",
+        "name": "sidebar-03",
+        "bytes": 5502
+      },
+      "Sidebar04": {
+        "kind": "block",
+        "group": "Sidebar blocks",
+        "name": "sidebar-04",
+        "bytes": 5545
+      },
+      "Sidebar05": {
+        "kind": "block",
+        "group": "Sidebar blocks",
+        "name": "sidebar-05",
+        "bytes": 6922
+      },
+      "Sidebar06": {
+        "kind": "block",
+        "group": "Sidebar blocks",
+        "name": "sidebar-06",
+        "bytes": 6766
+      },
+      "Sidebar07": {
+        "kind": "block",
+        "group": "Sidebar blocks",
+        "name": "sidebar-07",
+        "bytes": 17695
+      },
+      "Sidebar08": {
+        "kind": "block",
+        "group": "Sidebar blocks",
+        "name": "sidebar-08",
+        "bytes": 16697
+      },
+      "Sidebar09": {
+        "kind": "block",
+        "group": "Sidebar blocks",
+        "name": "sidebar-09",
+        "bytes": 14576
+      },
+      "Sidebar10": {
+        "kind": "block",
+        "group": "Sidebar blocks",
+        "name": "sidebar-10",
+        "bytes": 22525
+      },
+      "Sidebar11": {
+        "kind": "block",
+        "group": "Sidebar blocks",
+        "name": "sidebar-11",
+        "bytes": 5778
+      },
+      "Sidebar12": {
+        "kind": "block",
+        "group": "Sidebar blocks",
+        "name": "sidebar-12",
+        "bytes": 9747
+      },
+      "Sidebar13": {
+        "kind": "block",
+        "group": "Sidebar blocks",
+        "name": "sidebar-13",
+        "bytes": 8905
+      },
+      "Sidebar14": {
+        "kind": "block",
+        "group": "Sidebar blocks",
+        "name": "sidebar-14",
+        "bytes": 3576
+      },
+      "Sidebar15": {
+        "kind": "block",
+        "group": "Sidebar blocks",
+        "name": "sidebar-15",
+        "bytes": 23144
+      },
+      "Sidebar16": {
+        "kind": "block",
+        "group": "Sidebar blocks",
+        "name": "sidebar-16",
+        "bytes": 18184
+      },
+      "ChartsArea": {
+        "kind": "charts",
+        "group": "Charts",
+        "name": "area",
+        "charts": [
+          "chart-area-axes",
+          "chart-area-default",
+          "chart-area-gradient",
+          "chart-area-icons",
+          "chart-area-interactive",
+          "chart-area-legend",
+          "chart-area-linear",
+          "chart-area-stacked-expand",
+          "chart-area-stacked",
+          "chart-area-step"
+        ],
+        "bytes": 23849
+      },
+      "ChartsBar": {
+        "kind": "charts",
+        "group": "Charts",
+        "name": "bar",
+        "charts": [
+          "chart-bar-active",
+          "chart-bar-default",
+          "chart-bar-horizontal",
+          "chart-bar-interactive",
+          "chart-bar-label-custom",
+          "chart-bar-label",
+          "chart-bar-mixed",
+          "chart-bar-multiple",
+          "chart-bar-negative",
+          "chart-bar-stacked"
+        ],
+        "bytes": 20746
+      },
+      "ChartsLine": {
+        "kind": "charts",
+        "group": "Charts",
+        "name": "line",
+        "charts": [
+          "chart-line-default",
+          "chart-line-dots-colors",
+          "chart-line-dots-custom",
+          "chart-line-dots",
+          "chart-line-interactive",
+          "chart-line-label-custom",
+          "chart-line-label",
+          "chart-line-linear",
+          "chart-line-multiple",
+          "chart-line-step"
+        ],
+        "bytes": 21332
+      },
+      "ChartsPie": {
+        "kind": "charts",
+        "group": "Charts",
+        "name": "pie",
+        "charts": [
+          "chart-pie-donut-active",
+          "chart-pie-donut-text",
+          "chart-pie-donut",
+          "chart-pie-interactive",
+          "chart-pie-label-custom",
+          "chart-pie-label-list",
+          "chart-pie-label",
+          "chart-pie-legend",
+          "chart-pie-separator-none",
+          "chart-pie-simple",
+          "chart-pie-stacked"
+        ],
+        "bytes": 21010
+      },
+      "ChartsRadar": {
+        "kind": "charts",
+        "group": "Charts",
+        "name": "radar",
+        "charts": [
+          "chart-radar-default",
+          "chart-radar-dots",
+          "chart-radar-grid-circle-fill",
+          "chart-radar-grid-circle-no-lines",
+          "chart-radar-grid-circle",
+          "chart-radar-grid-custom",
+          "chart-radar-grid-fill",
+          "chart-radar-grid-none",
+          "chart-radar-icons",
+          "chart-radar-label-custom",
+          "chart-radar-legend",
+          "chart-radar-lines-only",
+          "chart-radar-multiple",
+          "chart-radar-radius"
+        ],
+        "bytes": 21974
+      },
+      "ChartsRadial": {
+        "kind": "charts",
+        "group": "Charts",
+        "name": "radial",
+        "charts": [
+          "chart-radial-grid",
+          "chart-radial-label",
+          "chart-radial-shape",
+          "chart-radial-simple",
+          "chart-radial-stacked",
+          "chart-radial-text"
+        ],
+        "bytes": 12005
+      },
+      "ChartsTooltip": {
+        "kind": "charts",
+        "group": "Charts",
+        "name": "tooltip",
+        "charts": [
+          "chart-tooltip-default",
+          "chart-tooltip-indicator-line",
+          "chart-tooltip-indicator-none",
+          "chart-tooltip-label-none",
+          "chart-tooltip-label-custom",
+          "chart-tooltip-label-formatter",
+          "chart-tooltip-formatter",
+          "chart-tooltip-icons",
+          "chart-tooltip-advanced"
+        ],
+        "bytes": 14694
+      },
+      "StyleNova": {
+        "kind": "styles",
+        "group": "Styles",
+        "name": "nova",
+        "bytes": 10941
+      },
+      "StyleVega": {
+        "kind": "styles",
+        "group": "Styles",
+        "name": "vega",
+        "bytes": 10941
+      },
+      "StyleMaia": {
+        "kind": "styles",
+        "group": "Styles",
+        "name": "maia",
+        "bytes": 10941
+      },
+      "StyleLyra": {
+        "kind": "styles",
+        "group": "Styles",
+        "name": "lyra",
+        "bytes": 10941
+      },
+      "StyleMira": {
+        "kind": "styles",
+        "group": "Styles",
+        "name": "mira",
+        "bytes": 10941
+      },
+      "StyleLuma": {
+        "kind": "styles",
+        "group": "Styles",
+        "name": "luma",
+        "bytes": 10941
+      },
+      "StyleSera": {
+        "kind": "styles",
+        "group": "Styles",
+        "name": "sera",
+        "bytes": 10941
+      },
+      "StyleRhea": {
+        "kind": "styles",
+        "group": "Styles",
+        "name": "rhea",
+        "bytes": 10941
+      }
+    },
+    "synced": "2026-10-20"
+  },
+  "color": {
+    "note": "Light and Dark are the repo default (neutral base colour, neutral theme). The accent themes (blue, emerald, amber) are each merged over neutral exactly as `buildRegistryTheme` does, chart colours included. Every surface token pairs with a `-foreground` token. In an app, dark is the `.dark` class; here it is any theme id ending in `dark`. All 24 source themes are listed in the Color themes section.",
+    "themes": [
+      {
+        "id": "light",
+        "name": "Light"
+      },
+      {
+        "id": "dark",
+        "name": "Dark"
+      },
+      {
+        "id": "blue-light",
+        "name": "Blue light"
+      },
+      {
+        "id": "blue-dark",
+        "name": "Blue dark"
+      },
+      {
+        "id": "emerald-light",
+        "name": "Emerald light"
+      },
+      {
+        "id": "emerald-dark",
+        "name": "Emerald dark"
+      },
+      {
+        "id": "amber-light",
+        "name": "Amber light"
+      },
+      {
+        "id": "amber-dark",
+        "name": "Amber dark"
+      }
+    ],
+    "tokens": [
+      {
+        "name": "background",
+        "value": {
+          "light": "oklch(1 0 0)",
+          "dark": "oklch(0.145 0 0)",
+          "blue-light": "oklch(1 0 0)",
+          "blue-dark": "oklch(0.145 0 0)",
+          "emerald-light": "oklch(1 0 0)",
+          "emerald-dark": "oklch(0.145 0 0)",
+          "amber-light": "oklch(1 0 0)",
+          "amber-dark": "oklch(0.145 0 0)"
+        },
+        "usage": "Default app background: the page shell and page sections. Pairs with `foreground`."
+      },
+      {
+        "name": "foreground",
+        "value": {
+          "light": "oklch(0.145 0 0)",
+          "dark": "oklch(0.985 0 0)",
+          "blue-light": "oklch(0.145 0 0)",
+          "blue-dark": "oklch(0.985 0 0)",
+          "emerald-light": "oklch(0.145 0 0)",
+          "emerald-dark": "oklch(0.985 0 0)",
+          "amber-light": "oklch(0.145 0 0)",
+          "amber-dark": "oklch(0.985 0 0)"
+        },
+        "usage": "Default text and icon colour on `background`, `card` and `popover`."
+      },
+      {
+        "name": "card",
+        "value": {
+          "light": "oklch(1 0 0)",
+          "dark": "oklch(0.205 0 0)",
+          "blue-light": "oklch(1 0 0)",
+          "blue-dark": "oklch(0.205 0 0)",
+          "emerald-light": "oklch(1 0 0)",
+          "emerald-dark": "oklch(0.205 0 0)",
+          "amber-light": "oklch(1 0 0)",
+          "amber-dark": "oklch(0.205 0 0)"
+        },
+        "usage": "Elevated surfaces: `Card`, dashboard and settings panels. Pairs with `card-foreground`."
+      },
+      {
+        "name": "card-foreground",
+        "value": {
+          "light": "oklch(0.145 0 0)",
+          "dark": "oklch(0.985 0 0)",
+          "blue-light": "oklch(0.145 0 0)",
+          "blue-dark": "oklch(0.985 0 0)",
+          "emerald-light": "oklch(0.145 0 0)",
+          "emerald-dark": "oklch(0.985 0 0)",
+          "amber-light": "oklch(0.145 0 0)",
+          "amber-dark": "oklch(0.985 0 0)"
+        },
+        "usage": "Text and icons on `card`."
+      },
+      {
+        "name": "popover",
+        "value": {
+          "light": "oklch(1 0 0)",
+          "dark": "oklch(0.205 0 0)",
+          "blue-light": "oklch(1 0 0)",
+          "blue-dark": "oklch(0.205 0 0)",
+          "emerald-light": "oklch(1 0 0)",
+          "emerald-dark": "oklch(0.205 0 0)",
+          "amber-light": "oklch(1 0 0)",
+          "amber-dark": "oklch(0.205 0 0)"
+        },
+        "usage": "Floating surfaces: `Popover`, `DropdownMenu`, `ContextMenu`, `Select`, `HoverCard`. Pairs with `popover-foreground`."
+      },
+      {
+        "name": "popover-foreground",
+        "value": {
+          "light": "oklch(0.145 0 0)",
+          "dark": "oklch(0.985 0 0)",
+          "blue-light": "oklch(0.145 0 0)",
+          "blue-dark": "oklch(0.985 0 0)",
+          "emerald-light": "oklch(0.145 0 0)",
+          "emerald-dark": "oklch(0.985 0 0)",
+          "amber-light": "oklch(0.145 0 0)",
+          "amber-dark": "oklch(0.985 0 0)"
+        },
+        "usage": "Text and icons on `popover`."
+      },
+      {
+        "name": "primary",
+        "value": {
+          "light": "oklch(0.205 0 0)",
+          "dark": "oklch(0.922 0 0)",
+          "blue-light": "oklch(0.488 0.243 264.376)",
+          "blue-dark": "oklch(0.424 0.199 265.638)",
+          "emerald-light": "oklch(0.508 0.118 165.612)",
+          "emerald-dark": "oklch(0.432 0.095 166.913)",
+          "amber-light": "oklch(0.555 0.163 48.998)",
+          "amber-dark": "oklch(0.473 0.137 46.201)"
+        },
+        "usage": "High-emphasis actions and brand surfaces: the default `Button`, selected states, default `Badge`, active accents. Pairs with `primary-foreground`."
+      },
+      {
+        "name": "primary-foreground",
+        "value": {
+          "light": "oklch(0.985 0 0)",
+          "dark": "oklch(0.205 0 0)",
+          "blue-light": "oklch(0.97 0.014 254.604)",
+          "blue-dark": "oklch(0.97 0.014 254.604)",
+          "emerald-light": "oklch(0.979 0.021 166.113)",
+          "emerald-dark": "oklch(0.979 0.021 166.113)",
+          "amber-light": "oklch(0.987 0.022 95.277)",
+          "amber-dark": "oklch(0.987 0.022 95.277)"
+        },
+        "usage": "Text and icons on `primary`."
+      },
+      {
+        "name": "secondary",
+        "value": {
+          "light": "oklch(0.97 0 0)",
+          "dark": "oklch(0.269 0 0)",
+          "blue-light": "oklch(0.967 0.001 286.375)",
+          "blue-dark": "oklch(0.274 0.006 286.033)",
+          "emerald-light": "oklch(0.967 0.001 286.375)",
+          "emerald-dark": "oklch(0.274 0.006 286.033)",
+          "amber-light": "oklch(0.967 0.001 286.375)",
+          "amber-dark": "oklch(0.274 0.006 286.033)"
+        },
+        "usage": "Lower-emphasis filled actions and supporting surfaces: secondary `Button` and `Badge`. Pairs with `secondary-foreground`."
+      },
+      {
+        "name": "secondary-foreground",
+        "value": {
+          "light": "oklch(0.205 0 0)",
+          "dark": "oklch(0.985 0 0)",
+          "blue-light": "oklch(0.21 0.006 285.885)",
+          "blue-dark": "oklch(0.985 0 0)",
+          "emerald-light": "oklch(0.21 0.006 285.885)",
+          "emerald-dark": "oklch(0.985 0 0)",
+          "amber-light": "oklch(0.21 0.006 285.885)",
+          "amber-dark": "oklch(0.985 0 0)"
+        },
+        "usage": "Text and icons on `secondary`."
+      },
+      {
+        "name": "muted",
+        "value": {
+          "light": "oklch(0.97 0 0)",
+          "dark": "oklch(0.269 0 0)",
+          "blue-light": "oklch(0.97 0 0)",
+          "blue-dark": "oklch(0.269 0 0)",
+          "emerald-light": "oklch(0.97 0 0)",
+          "emerald-dark": "oklch(0.269 0 0)",
+          "amber-light": "oklch(0.97 0 0)",
+          "amber-dark": "oklch(0.269 0 0)"
+        },
+        "usage": "Subtle surfaces: skeletons, tab lists, code and kbd chips, disabled fills. Pairs with `muted-foreground`."
+      },
+      {
+        "name": "muted-foreground",
+        "value": {
+          "light": "oklch(0.556 0 0)",
+          "dark": "oklch(0.708 0 0)",
+          "blue-light": "oklch(0.556 0 0)",
+          "blue-dark": "oklch(0.708 0 0)",
+          "emerald-light": "oklch(0.556 0 0)",
+          "emerald-dark": "oklch(0.708 0 0)",
+          "amber-light": "oklch(0.556 0 0)",
+          "amber-dark": "oklch(0.708 0 0)"
+        },
+        "usage": "Lower-emphasis text: descriptions, placeholders, helper text, empty states. Reads on `background`, `card`, `popover` and `muted`. Source value kept exact: muted-foreground on muted is light 4.34:1, blue-light 4.34:1, emerald-light 4.34:1, amber-light 4.34:1, under 4.5:1."
+      },
+      {
+        "name": "accent",
+        "value": {
+          "light": "oklch(0.97 0 0)",
+          "dark": "oklch(0.269 0 0)",
+          "blue-light": "oklch(0.97 0 0)",
+          "blue-dark": "oklch(0.269 0 0)",
+          "emerald-light": "oklch(0.97 0 0)",
+          "emerald-dark": "oklch(0.269 0 0)",
+          "amber-light": "oklch(0.97 0 0)",
+          "amber-dark": "oklch(0.269 0 0)"
+        },
+        "usage": "Interactive hover, focus and active surfaces: ghost `Button` hover, highlighted menu items, hovered rows, selected items. Pairs with `accent-foreground`."
+      },
+      {
+        "name": "accent-foreground",
+        "value": {
+          "light": "oklch(0.205 0 0)",
+          "dark": "oklch(0.985 0 0)",
+          "blue-light": "oklch(0.205 0 0)",
+          "blue-dark": "oklch(0.985 0 0)",
+          "emerald-light": "oklch(0.205 0 0)",
+          "emerald-dark": "oklch(0.985 0 0)",
+          "amber-light": "oklch(0.205 0 0)",
+          "amber-dark": "oklch(0.985 0 0)"
+        },
+        "usage": "Text and icons on `accent`."
+      },
+      {
+        "name": "destructive",
+        "value": {
+          "light": "oklch(0.577 0.245 27.325)",
+          "dark": "oklch(0.704 0.191 22.216)",
+          "blue-light": "oklch(0.577 0.245 27.325)",
+          "blue-dark": "oklch(0.704 0.191 22.216)",
+          "emerald-light": "oklch(0.577 0.245 27.325)",
+          "emerald-dark": "oklch(0.704 0.191 22.216)",
+          "amber-light": "oklch(0.577 0.245 27.325)",
+          "amber-dark": "oklch(0.704 0.191 22.216)"
+        },
+        "usage": "Destructive actions and error emphasis: destructive `Button` (as text on a 10% tint), invalid field borders and rings, destructive menu items, `FieldError` text."
+      },
+      {
+        "name": "border",
+        "value": {
+          "light": "oklch(0.922 0 0)",
+          "dark": "oklch(1 0 0 / 10%)",
+          "blue-light": "oklch(0.922 0 0)",
+          "blue-dark": "oklch(1 0 0 / 10%)",
+          "emerald-light": "oklch(0.922 0 0)",
+          "emerald-dark": "oklch(1 0 0 / 10%)",
+          "amber-light": "oklch(0.922 0 0)",
+          "amber-dark": "oklch(1 0 0 / 10%)"
+        },
+        "usage": "Default borders and separators: cards, menus, tables, `Separator`, layout dividers. Source value kept exact: border on background is light 1.26:1, dark 1.25:1, blue-light 1.26:1, blue-dark 1.25:1, emerald-light 1.26:1, emerald-dark 1.25:1, amber-light 1.26:1, amber-dark 1.25:1, under 3:1. Decorative dividers; controls rely on `input`, not `border`, for their edge."
+      },
+      {
+        "name": "input",
+        "value": {
+          "light": "oklch(0.922 0 0)",
+          "dark": "oklch(1 0 0 / 15%)",
+          "blue-light": "oklch(0.922 0 0)",
+          "blue-dark": "oklch(1 0 0 / 15%)",
+          "emerald-light": "oklch(0.922 0 0)",
+          "emerald-dark": "oklch(1 0 0 / 15%)",
+          "amber-light": "oklch(0.922 0 0)",
+          "amber-dark": "oklch(1 0 0 / 15%)"
+        },
+        "usage": "Form-control borders and the input surface tint (`dark:bg-input/30`): `Input`, `Textarea`, `Select`, outline controls. Source value kept exact: input on background is light 1.26:1, dark 1.47:1, blue-light 1.26:1, blue-dark 1.47:1, emerald-light 1.26:1, emerald-dark 1.47:1, amber-light 1.26:1, amber-dark 1.47:1, under 3:1."
+      },
+      {
+        "name": "ring",
+        "value": {
+          "light": "oklch(0.708 0 0)",
+          "dark": "oklch(0.556 0 0)",
+          "blue-light": "oklch(0.708 0 0)",
+          "blue-dark": "oklch(0.556 0 0)",
+          "emerald-light": "oklch(0.708 0 0)",
+          "emerald-dark": "oklch(0.556 0 0)",
+          "amber-light": "oklch(0.708 0 0)",
+          "amber-dark": "oklch(0.556 0 0)"
+        },
+        "usage": "Focus rings and outlines on focusable controls; applied at 50% (`ring-ring/50`, `ring-3`) with a solid `border-ring`. Source value kept exact: ring on background is light 2.59:1, blue-light 2.59:1, emerald-light 2.59:1, amber-light 2.59:1, under 3:1."
+      },
+      {
+        "name": "chart-1",
+        "value": {
+          "light": "oklch(0.87 0 0)",
+          "dark": "oklch(0.87 0 0)",
+          "blue-light": "oklch(0.809 0.105 251.813)",
+          "blue-dark": "oklch(0.809 0.105 251.813)",
+          "emerald-light": "oklch(0.845 0.143 164.978)",
+          "emerald-dark": "oklch(0.845 0.143 164.978)",
+          "amber-light": "oklch(0.879 0.169 91.605)",
+          "amber-dark": "oklch(0.879 0.169 91.605)"
+        },
+        "usage": "Chart palette, series 1. Neutral themes: five greys from light to dark. Accent themes: five steps of the accent hue."
+      },
+      {
+        "name": "chart-2",
+        "value": {
+          "light": "oklch(0.556 0 0)",
+          "dark": "oklch(0.556 0 0)",
+          "blue-light": "oklch(0.623 0.214 259.815)",
+          "blue-dark": "oklch(0.623 0.214 259.815)",
+          "emerald-light": "oklch(0.696 0.17 162.48)",
+          "emerald-dark": "oklch(0.696 0.17 162.48)",
+          "amber-light": "oklch(0.769 0.188 70.08)",
+          "amber-dark": "oklch(0.769 0.188 70.08)"
+        },
+        "usage": "Chart palette, series 2."
+      },
+      {
+        "name": "chart-3",
+        "value": {
+          "light": "oklch(0.439 0 0)",
+          "dark": "oklch(0.439 0 0)",
+          "blue-light": "oklch(0.546 0.245 262.881)",
+          "blue-dark": "oklch(0.546 0.245 262.881)",
+          "emerald-light": "oklch(0.596 0.145 163.225)",
+          "emerald-dark": "oklch(0.596 0.145 163.225)",
+          "amber-light": "oklch(0.666 0.179 58.318)",
+          "amber-dark": "oklch(0.666 0.179 58.318)"
+        },
+        "usage": "Chart palette, series 3."
+      },
+      {
+        "name": "chart-4",
+        "value": {
+          "light": "oklch(0.371 0 0)",
+          "dark": "oklch(0.371 0 0)",
+          "blue-light": "oklch(0.488 0.243 264.376)",
+          "blue-dark": "oklch(0.488 0.243 264.376)",
+          "emerald-light": "oklch(0.508 0.118 165.612)",
+          "emerald-dark": "oklch(0.508 0.118 165.612)",
+          "amber-light": "oklch(0.555 0.163 48.998)",
+          "amber-dark": "oklch(0.555 0.163 48.998)"
+        },
+        "usage": "Chart palette, series 4."
+      },
+      {
+        "name": "chart-5",
+        "value": {
+          "light": "oklch(0.269 0 0)",
+          "dark": "oklch(0.269 0 0)",
+          "blue-light": "oklch(0.424 0.199 265.638)",
+          "blue-dark": "oklch(0.424 0.199 265.638)",
+          "emerald-light": "oklch(0.432 0.095 166.913)",
+          "emerald-dark": "oklch(0.432 0.095 166.913)",
+          "amber-light": "oklch(0.473 0.137 46.201)",
+          "amber-dark": "oklch(0.473 0.137 46.201)"
+        },
+        "usage": "Chart palette, series 5."
+      },
+      {
+        "name": "sidebar",
+        "value": {
+          "light": "oklch(0.985 0 0)",
+          "dark": "oklch(0.205 0 0)",
+          "blue-light": "oklch(0.985 0 0)",
+          "blue-dark": "oklch(0.205 0 0)",
+          "emerald-light": "oklch(0.985 0 0)",
+          "emerald-dark": "oklch(0.205 0 0)",
+          "amber-light": "oklch(0.985 0 0)",
+          "amber-dark": "oklch(0.205 0 0)"
+        },
+        "usage": "The `Sidebar` container surface. Pairs with `sidebar-foreground`."
+      },
+      {
+        "name": "sidebar-foreground",
+        "value": {
+          "light": "oklch(0.145 0 0)",
+          "dark": "oklch(0.985 0 0)",
+          "blue-light": "oklch(0.145 0 0)",
+          "blue-dark": "oklch(0.985 0 0)",
+          "emerald-light": "oklch(0.145 0 0)",
+          "emerald-dark": "oklch(0.985 0 0)",
+          "amber-light": "oklch(0.145 0 0)",
+          "amber-dark": "oklch(0.985 0 0)"
+        },
+        "usage": "Default text and icons inside the sidebar, on `sidebar`."
+      },
+      {
+        "name": "sidebar-primary",
+        "value": {
+          "light": "oklch(0.205 0 0)",
+          "dark": "oklch(0.488 0.243 264.376)",
+          "blue-light": "oklch(0.546 0.245 262.881)",
+          "blue-dark": "oklch(0.623 0.214 259.815)",
+          "emerald-light": "oklch(0.596 0.145 163.225)",
+          "emerald-dark": "oklch(0.696 0.17 162.48)",
+          "amber-light": "oklch(0.666 0.179 58.318)",
+          "amber-dark": "oklch(0.769 0.188 70.08)"
+        },
+        "usage": "High-emphasis actions inside the sidebar: active items, icon tiles, badges, sidebar CTAs. Pairs with `sidebar-primary-foreground`."
+      },
+      {
+        "name": "sidebar-primary-foreground",
+        "value": {
+          "light": "oklch(0.985 0 0)",
+          "dark": "oklch(0.985 0 0)",
+          "blue-light": "oklch(0.97 0.014 254.604)",
+          "blue-dark": "oklch(0.97 0.014 254.604)",
+          "emerald-light": "oklch(0.979 0.021 166.113)",
+          "emerald-dark": "oklch(0.262 0.051 172.552)",
+          "amber-light": "oklch(0.987 0.022 95.277)",
+          "amber-dark": "oklch(0.279 0.077 45.635)"
+        },
+        "usage": "Text and icons on `sidebar-primary`. Source value kept exact: sidebar-primary-foreground on sidebar-primary is blue-dark 3.45:1, emerald-light 3.48:1, amber-light 3.08:1, under 4.5:1."
+      },
+      {
+        "name": "sidebar-accent",
+        "value": {
+          "light": "oklch(0.97 0 0)",
+          "dark": "oklch(0.269 0 0)",
+          "blue-light": "oklch(0.97 0 0)",
+          "blue-dark": "oklch(0.269 0 0)",
+          "emerald-light": "oklch(0.97 0 0)",
+          "emerald-dark": "oklch(0.269 0 0)",
+          "amber-light": "oklch(0.97 0 0)",
+          "amber-dark": "oklch(0.269 0 0)"
+        },
+        "usage": "Hover and selected states inside the sidebar: menu hover, open items, interactive rows. Pairs with `sidebar-accent-foreground`."
+      },
+      {
+        "name": "sidebar-accent-foreground",
+        "value": {
+          "light": "oklch(0.205 0 0)",
+          "dark": "oklch(0.985 0 0)",
+          "blue-light": "oklch(0.205 0 0)",
+          "blue-dark": "oklch(0.985 0 0)",
+          "emerald-light": "oklch(0.205 0 0)",
+          "emerald-dark": "oklch(0.985 0 0)",
+          "amber-light": "oklch(0.205 0 0)",
+          "amber-dark": "oklch(0.985 0 0)"
+        },
+        "usage": "Text and icons on `sidebar-accent`."
+      },
+      {
+        "name": "sidebar-border",
+        "value": {
+          "light": "oklch(0.922 0 0)",
+          "dark": "oklch(1 0 0 / 10%)",
+          "blue-light": "oklch(0.922 0 0)",
+          "blue-dark": "oklch(1 0 0 / 10%)",
+          "emerald-light": "oklch(0.922 0 0)",
+          "emerald-dark": "oklch(1 0 0 / 10%)",
+          "amber-light": "oklch(0.922 0 0)",
+          "amber-dark": "oklch(1 0 0 / 10%)"
+        },
+        "usage": "Sidebar headers, groups and internal dividers."
+      },
+      {
+        "name": "sidebar-ring",
+        "value": {
+          "light": "oklch(0.708 0 0)",
+          "dark": "oklch(0.556 0 0)",
+          "blue-light": "oklch(0.708 0 0)",
+          "blue-dark": "oklch(0.556 0 0)",
+          "emerald-light": "oklch(0.708 0 0)",
+          "emerald-dark": "oklch(0.556 0 0)",
+          "amber-light": "oklch(0.708 0 0)",
+          "amber-dark": "oklch(0.556 0 0)"
+        },
+        "usage": "Focus rings on controls inside the sidebar."
+      }
+    ]
+  },
+  "type": {
+    "fonts": [],
+    "families": {
+      "sans": "Inter, 'Inter Variable', sans-serif",
+      "heading": "Inter, 'Inter Variable', sans-serif",
+      "mono": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+    },
+    "groups": [
+      {
+        "name": "Typography",
+        "family": "sans",
+        "styles": [
+          {
+            "name": "h1",
+            "fontSize": "2.25rem",
+            "lineHeight": "2.5rem",
+            "fontWeight": 800,
+            "letterSpacing": "-0.025em",
+            "sample": "Taxing Laughter: The Joke Tax Chronicles",
+            "usage": "Page title, once per page: `text-4xl font-extrabold tracking-tight text-balance`, in `font-heading`."
+          },
+          {
+            "name": "h2",
+            "fontSize": "1.875rem",
+            "lineHeight": "2.25rem",
+            "fontWeight": 600,
+            "letterSpacing": "-0.025em",
+            "sample": "The People of the Kingdom",
+            "usage": "Section heading: `text-3xl font-semibold tracking-tight`, with a `border-b pb-2` rule under it."
+          },
+          {
+            "name": "h3",
+            "fontSize": "1.5rem",
+            "lineHeight": "2rem",
+            "fontWeight": 600,
+            "letterSpacing": "-0.025em",
+            "sample": "The Joke Tax",
+            "usage": "Sub-section heading: `text-2xl font-semibold tracking-tight`."
+          },
+          {
+            "name": "h4",
+            "fontSize": "1.25rem",
+            "lineHeight": "1.75rem",
+            "fontWeight": 600,
+            "letterSpacing": "-0.025em",
+            "sample": "People stopped telling jokes",
+            "usage": "Minor heading: `text-xl font-semibold tracking-tight`."
+          },
+          {
+            "name": "lead",
+            "fontSize": "1.25rem",
+            "lineHeight": "1.75rem",
+            "fontWeight": 400,
+            "sample": "A modal dialog that interrupts the user with important content and expects a response.",
+            "usage": "Intro paragraph under a page title, in `muted-foreground`."
+          },
+          {
+            "name": "p",
+            "fontSize": "1rem",
+            "lineHeight": "1.75rem",
+            "fontWeight": 400,
+            "sample": "The king, seeing how much happier his subjects were, realized the error of his ways and repealed the joke tax.",
+            "usage": "Long-form body copy (`leading-7`); consecutive paragraphs get `mt-6`."
+          },
+          {
+            "name": "large",
+            "fontSize": "1.125rem",
+            "lineHeight": "1.75rem",
+            "fontWeight": 600,
+            "sample": "Are you absolutely sure?",
+            "usage": "Emphasised standalone line: `text-lg font-semibold`."
+          },
+          {
+            "name": "small",
+            "fontSize": "0.875rem",
+            "lineHeight": "1",
+            "fontWeight": 500,
+            "sample": "Email address",
+            "usage": "Labels and compact captions: `text-sm leading-none font-medium`."
+          },
+          {
+            "name": "muted",
+            "fontSize": "0.875rem",
+            "lineHeight": "1.25rem",
+            "fontWeight": 400,
+            "sample": "Enter your email address.",
+            "usage": "Secondary text in `muted-foreground`: `text-sm`."
+          },
+          {
+            "name": "blockquote",
+            "fontSize": "1rem",
+            "lineHeight": "1.5rem",
+            "fontWeight": 400,
+            "fontStyle": "italic",
+            "sample": "\"After all,\" he said, \"everyone enjoys a good joke, so it's only fair that they should pay for the privilege.\"",
+            "usage": "Quotations: italic with a `border-l-2 pl-6` rule."
+          },
+          {
+            "name": "inline-code",
+            "family": "mono",
+            "fontSize": "0.875rem",
+            "lineHeight": "1.25rem",
+            "fontWeight": 600,
+            "sample": "@radix-ui/react-alert-dialog",
+            "usage": "Code in running text: `font-mono text-sm font-semibold` on a `muted` chip, `rounded` with `px-[0.3rem] py-[0.2rem]`."
+          }
+        ]
+      },
+      {
+        "name": "Interface",
+        "family": "sans",
+        "styles": [
+          {
+            "name": "ui-base",
+            "fontSize": "1rem",
+            "lineHeight": "1.375",
+            "fontWeight": 500,
+            "sample": "Card title",
+            "usage": "Card titles (`text-base leading-snug font-medium`); dialog and sheet titles use the same size at `leading-none`."
+          },
+          {
+            "name": "ui-sm-medium",
+            "fontSize": "0.875rem",
+            "lineHeight": "1.25rem",
+            "fontWeight": 500,
+            "sample": "Save changes",
+            "usage": "Buttons, labels, tab and menu-trigger text (`text-sm font-medium`)."
+          },
+          {
+            "name": "ui-sm",
+            "fontSize": "0.875rem",
+            "lineHeight": "1.25rem",
+            "fontWeight": 400,
+            "sample": "Make changes to your profile here.",
+            "usage": "Default control and body text inside components: inputs, menu items, descriptions (`text-sm`)."
+          },
+          {
+            "name": "ui-xs-medium",
+            "fontSize": "0.75rem",
+            "lineHeight": "1rem",
+            "fontWeight": 500,
+            "sample": "Badge",
+            "usage": "Badges, kbd, small buttons, menu group labels (`text-xs font-medium`)."
+          },
+          {
+            "name": "ui-xs",
+            "fontSize": "0.75rem",
+            "lineHeight": "1rem",
+            "fontWeight": 400,
+            "sample": "⌘K",
+            "usage": "Tooltips, shortcuts and the smallest helper text (`text-xs`)."
+          }
+        ]
+      }
+    ]
+  },
+  "spacing": {
+    "note": "Tailwind v4 spacing: one base unit, and every `p-*`, `m-*`, `gap-*`, `size-*` step is `calc(var(--spacing) * n)`. Change `spacing` and the whole scale follows.",
+    "tokens": [
+      {
+        "name": "spacing",
+        "value": "0.25rem",
+        "usage": "The base unit (4px at a 16px root). Nova steps used most: 1 (4px), 1.5 (6px), 2 (8px), 2.5 (10px), 3 (12px), 4 (16px), 6 (24px)."
+      }
+    ]
+  },
+  "radius": {
+    "note": "One source: `radius`. Components use the derived scale sm ×0.6, md ×0.8, lg ×1, xl ×1.4, 2xl ×1.8, 3xl ×2.2, 4xl ×2.6, so changing `radius` re-rounds everything.",
+    "tokens": [
+      {
+        "name": "radius",
+        "value": "0.625rem",
+        "usage": "Base corner radius (= `rounded-lg`, 10px). Derived: sm 6px, md 8px, lg 10px, xl 14px, 2xl 18px, 3xl 22px, 4xl 26px. Nova: buttons and inputs `rounded-lg`, cards `rounded-xl`, menus and popovers `rounded-lg`, badges `rounded-4xl`."
+      }
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+ "compilerOptions": {
+  "target": "ES2020",
+  "module": "ESNext",
+  "moduleResolution": "Bundler",
+  "jsx": "react-jsx",
+  "declaration": true,
+  "emitDeclarationOnly": true,
+  "skipLibCheck": true,
+  "strict": false,
+  "noEmitOnError": false,
+  "outDir": "./dts",
+  "rootDir": "/home/claude/gf4e/ui",
+  "baseUrl": ".",
+  "typeRoots": [
+   "./node_modules/@types"
+  ],
+  "paths": {
+   "@/registry/bases/base/*": [
+    "/home/claude/gf4e/ui/apps/v4/registry/bases/base/*"
+   ],
+   "@/app/(create)/components/icon-placeholder": [
+    "./src/icon-placeholder.d.ts"
+   ],
+   "@shadcn/react/*": [
+    "/home/claude/gf4e/ui/packages/react/src/*"
+   ],
+   "*": [
+    "./node_modules/*",
+    "./node_modules/@types/*"
+   ]
+  }
+ },
+ "files": [
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/accordion.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/alert-dialog.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/alert.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/aspect-ratio.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/attachment.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/avatar.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/badge.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/breadcrumb.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/bubble.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/button-group.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/button.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/calendar.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/card.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/carousel.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/chart.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/checkbox.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/code-block.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/collapsible.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/combobox.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/command.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/context-menu.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/dialog.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/direction.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/drawer.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/dropdown-menu.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/empty.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/field.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/hover-card.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/input-group.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/input-otp.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/input.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/item.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/kbd.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/label.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/marker.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/menubar.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/message-scroller.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/message.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/native-select.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/navigation-menu.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/pagination.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/popover.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/progress.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/questionnaire.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/radio-group.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/resizable.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/scroll-area.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/select.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/separator.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/sheet.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/sidebar.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/skeleton.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/slider.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/sonner.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/spinner.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/switch.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/table.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/tabs.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/textarea.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/toast.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/toggle-group.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/toggle.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/tooltip.tsx",
+  "/home/claude/gf4e/ui/apps/v4/registry/bases/base/ui/trace.tsx"
+ ]
+}
